@@ -1,10 +1,12 @@
 <nav class="navbar bg-dark sticky-top">
-    <div class="container-fluid">
+    <div class="container">
         <a class="navbar-brand text-light fs-1 banner-text" href="index.php">
-            <img src="img/logo2.png" alt="" width="50" height="50" class="d-inline-block align-text-top">
-        </a>
+          <img src="../assets/Wear Rainbow-4.png" alt="" width="500" height="200" class="navbar-brand d-inline-block align-text-top">
+      </a>
+
     </div>
 </nav>
+<br><br><br>
 <div class="main">
     <input type="number" #box1 placeholder="Ingrese bolivianos" />
     <label for="bolivianos"> Bs.</label>
@@ -26,3 +28,4 @@
     <button #bol3 (click)="toSol(getValor(box3.value))">Calcular</button>
     <div>{{ soles }} soles</div> 
     </div>
+ </div>
