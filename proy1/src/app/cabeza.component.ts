@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'cabezat',
+  selector: 'cabeza',
   templateUrl: '<nav class="navbar bg-dark sticky-top">
   <div class="container-fluid">
       <a class="navbar-brand text-light fs-1 banner-text" href="index.php">
