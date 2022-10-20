@@ -7,3 +7,9 @@
     </div>
 </nav>
 <br><br><br>
+<div class="main">
+    <input type="number" #box1 placeholder="Ingrese bolivianos" />
+    <label for="bolivianos"> Bs.</label>
+    <button #bol (click)="toDolar(getValor(box1.value))">Calcular</button>
+    <div>{{ dolar }} dólares</div>
+  </div>
