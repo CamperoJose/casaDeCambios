@@ -1,0 +1,14 @@
+* {
+    font-family: Lato;
+  }
+  input {
+    border-radius: 6px;
+    height: 8px;
+    padding: 12px;
+  }
+  .main {
+    text-align: center;
+  }
+  label {
+    padding-left: 4px;
+  }

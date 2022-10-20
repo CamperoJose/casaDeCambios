@@ -7,9 +7,42 @@
     </div>
 </nav>
 <br><br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a class="navbar-brand text-light fs-1 banner-text" href="https://www.xe.com/es/currencyconverter/convert/?Amount=1&From=BOB&To=USD">
+  <img src="../assets/2.png" alt="" width="500" height="200" class="navbar-brand d-inline-block align-text-top">
+</a>
+
+<a class="navbar-brand text-light fs-1 banner-text" href="https://www.xe.com/es/currencyconverter/convert/?Amount=1&From=PEN&To=USD">
+  <img src="../assets/3.png" alt="" width="500" height="200" class="navbar-brand d-inline-block align-text-top">
+</a>
+
+<a class="navbar-brand text-light fs-1 banner-text" href="https://www.xe.com/es/currencyconverter/convert/?Amount=1&From=EUR&To=USD">
+  <img src="../assets/4.png" alt="" width="500" height="200" class="navbar-brand d-inline-block align-text-top">
+</a>
+
+
+<br><br><br>
 <div class="main">
-    <input type="number" #box1 placeholder="Ingrese bolivianos" />
-    <label for="bolivianos"> Bs.</label>
-    <button #bol (click)="toDolar(getValor(box1.value))">Calcular</button>
-    <div>{{ dolar }} dólares</div>
+  <input type="number" #box1 placeholder="Ingrese bolivianos" />
+  <label for="bolivianos"> Bs.</label>
+  <button #bol (click)="toDolar(getValor(box1.value))">Calcular</button>
+  <div>{{ dolar }} dólares</div>
+</div>|
+
+
+
+<div class="main">
+  <input type="number" #box2 placeholder="Ingrese Bolivianos"/>
+  <label for="bolivianos"> Bs.</label>
+  
+  <button #bol (click)="toEuro(getValor(box2.value))">Calcular</button>
+  <div>{{ euro }} euros</div>
+  </div>
+  <div class="main">
+  
+  <input type="number" #box3 placeholder="Ingrese Bolivianos"/>
+  <label for="bolivianos"> Bs.</label>
+  
+  <button #bol3 (click)="toSol(getValor(box3.value))">Calcular</button>
+  <div>{{ soles }} soles</div> 
   </div>
