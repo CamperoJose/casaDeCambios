@@ -10,4 +10,19 @@
     <label for="bolivianos"> Bs.</label>
     <button #bol (click)="toDolar(getValor(box1.value))">Calcular</button>
     <div>{{ dolar }} dólares</div>
-  </div>
+  </div>|
+  <div class="main">
+    <input type="number" #box2 placeholder="Ingrese Bolivianos"/>
+    <label for="bolivianos"> Bs.</label>
+    
+    <button #bol (click)="toEuro(getValor(box2.value))">Calcular</button>
+    <div>{{ euro }} euros</div>
+    </div>
+    <div class="main">
+    
+    <input type="number" #box3 placeholder="Ingrese Bolivianos"/>
+    <label for="bolivianos"> Bs.</label>
+    
+    <button #bol3 (click)="toSol(getValor(box3.value))">Calcular</button>
+    <div>{{ soles }} soles</div> 
+    </div>
