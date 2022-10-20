@@ -4,9 +4,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
+import { cabezacomponent } from './cabeza.component';
+import { cambiocomponent } from './cambio.component';
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent, cabezacomponent, cambiocomponent
   ],
   imports: [
     BrowserModule,
